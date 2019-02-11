@@ -1,0 +1,576 @@
+{
+  "home": {
+    "slider": [
+      {
+        "id": "1",
+        "cover": "cover_1.jpg",
+        "topic": "PSL 2019",
+        "title": "Be ready for a war"
+      },
+      {
+        "id": "2",
+        "cover": "cover_2.jpg",
+        "topic": "United",
+        "title": "Be together is the biggest win"
+      },
+      {
+        "id": "3",
+        "cover": "cover_3.jpg",
+        "topic": "Public Love",
+        "title": "No game without public"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "p1",
+        "type": "lg",
+        "image": "1.jpg",
+        "title": "Bowler of the week",
+        "link": "/bowler"
+      },
+      {
+        "id": "p2",
+        "type": "md",
+        "image": "2.jpg",
+        "title": "Showing what you are",
+        "link": "/brave"
+      },
+      {
+        "id": "p3",
+        "type": "sm",
+        "image": "3.jpg",
+        "title": "Face fear",
+        "link": "/fear"
+      },
+      {
+        "id": "p4",
+        "type": "sm",
+        "image": "4.jpg",
+        "title": "Joyness of victory",
+        "link": "/victory"
+      },
+      {
+        "id": "p5",
+        "type": "md",
+        "image": "5.jpg",
+        "title": "Yeaaah!",
+        "link": "/yeah"
+      },
+      {
+        "id": "p6",
+        "type": "lg",
+        "image": "6.jpg",
+        "title": "win",
+        "link": "/win"
+      }
+    ],
+    "poll": [
+      {
+        "id": "p1",
+        "team": "Karachi Kings",
+        "thumg": "ss",
+        "count": 2543
+      },
+      {
+        "id": "p1",
+        "team": "Islamabad United",
+        "thumg": "ss",
+        "count": 2544
+      },
+      {
+        "id": "p1",
+        "team": "Lahore Qalanders",
+        "thumg": "ss",
+        "count": 2
+      }
+    ]
+  },
+  "subcriptions": [
+    {
+      "email": "far@gmail.com",
+      "id": 1
+    },
+    {
+      "email": "imu@gmail.com",
+      "id": 2
+    },
+    {
+      "email": "burhan@gmail.com",
+      "id": 3
+    },
+    {
+      "email": "muname@gmail.com",
+      "id": 4
+    },
+    {
+      "email": "heloo@gmail.com",
+      "id": 5
+    },
+    {
+      "email": "farjjs@gamil.com",
+      "id": 6
+    },
+    {
+      "email": "fsf@gmail.com",
+      "id": 7
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Islamabad United",
+      "logo": "islamabad-united",
+      "poll": "true",
+      "count": 47,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Luke Ronchi",
+          "playin as": "batsman",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Asif Ali",
+          "playin as": "batsman",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Philip Salt",
+          "playin as": "batsman",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Sahibzada Farhan, Cameron Delport",
+          "playin as": "batsman",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Rizwan Hussain",
+          "playin as": "batsman",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Shadab Khan",
+          "playin as": "bowler",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Mohammad Sami",
+          "playin as": "bowler",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Rumman Raees, Samit Patel",
+          "playin as": "bowler",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Waqas Maqsood",
+          "playin as": "bowler",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Karchi Kings",
+      "logo": "karachi-kings",
+      "poll": "true",
+      "count": 25670,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Babar Azam, Colin Munro",
+          "playin as": "batsman",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Colin Ingram",
+          "playin as": "batsman",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Ravi Bopara, Mohammad Rizwan (Wk)",
+          "playin as": "batsman",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Awais Zia",
+          "playin as": "batsman",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usman Khan Shinwari",
+          "playin as": "bowler",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Aaron Summers",
+          "playin as": "bowler",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Imad Wasim (C)",
+          "playin as": "All Rounders",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Sikandar Raza",
+          "playin as": "All Rounders",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Ali Imran",
+          "playin as": "All Rounders",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Lahore Qalandars",
+      "logo": "lahore-qalandars",
+      "poll": "true",
+      "count": 16,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Multan Sultan",
+      "logo": "multan-sultan",
+      "poll": "true",
+      "count": 27,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Peshawar Zalmi",
+      "logo": "peshawar-zalmi",
+      "poll": "true",
+      "count": 18,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Queta Gladiators",
+      "logo": "quetta-gladiators",
+      "poll": "true",
+      "count": 27,
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+      "squad": [
+        {
+          "name": "Ron Howard",
+          "number": 23,
+          "PPG": 31.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Justin Cane",
+          "number": 4,
+          "PPG": 5.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Roberto Roboto",
+          "number": 21,
+          "PPG": 1.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Nick Jones",
+          "number": 10,
+          "PPG": 7.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "James Cotton",
+          "number": 5,
+          "PPG": 10,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Michael Jackson",
+          "number": 7,
+          "PPG": 15,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "David Parser",
+          "number": 9,
+          "PPG": 6.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Montgomery Burn",
+          "number": 12,
+          "PPG": 0.5,
+          "APG": 5,
+          "RPG": 14
+        },
+        {
+          "name": "Usuain Osom",
+          "number": 11,
+          "PPG": 1,
+          "APG": 5,
+          "RPG": 14
+        }
+      ]
+    }
+  ]
+}

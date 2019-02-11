@@ -1,0 +1,268 @@
+body{
+    margin: 0 ;
+    padding: 0 ;
+    font-family: 'Roboto' ;
+    color: black 
+}
+.flexbox-container{
+    display: -ms-flex ;
+    display: -webkit-flex ;
+    display: flex ;
+}
+a{
+    text-decoration: none ;
+}
+h3{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 35px ;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+h4{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px ;
+    margin:15px  0 5px ;
+}
+header {
+    border-bottom: 1px solid #e2e2e2 ; 
+}
+header ,footer{
+    background: #ffff ;
+    align-items: center ;
+    padding: 10px ;
+    font-family: 'Fjalla One', sans-serif;
+}
+header nav{
+    position: fixed;
+    top: 0 ;
+    right:5px ;
+    font-size: 25px 
+}
+header .logo  
+footer .logo
+{
+    flex-grow: 1;
+    height: 22px;
+    background: black ;
+    border   :1px solid black
+}
+header .logo img ,
+footer .logo img{
+     display: inline-block ;
+     width: 50px ;
+     height: 30px;
+}
+footer {
+    background: rgb(219, 219, 219) ;
+}
+.item-slider{
+    height: 500px ;
+    background-size: cover !important;
+    background-position:cover cover ;
+    position: relative; 
+    font-family: 'Fjalla One', sans-serif ;
+
+}
+.item-slider .caption {
+    color: #FFB734;
+    position: absolute ;
+    right: 0 ;
+    padding: 20px ;
+    text-align: right ;
+    width : 320px ;
+    text-transform: uppercase ;
+    text-shadow: black 1px 1px ;
+}
+.item-slider h4{
+    font-weight: 300 ;
+    margin: 0 ;
+}
+.item-slider .caption p{
+    font-size: 70px ;
+    margin-top: 0px
+} 
+.subs-panel .error{ display: none ;}
+.subs-panel .succes{ display: none ;}
+.subs-panel .show-error ,
+.subs-panel .show-succes{
+    display: block ;
+}
+.subs-panel .show-error{   color: #f44326 ;
+}
+.subs-panel .show-succes{ color: #4caf50 ;
+}
+
+.subs-panel {
+    text-align: center ;
+    width : 350px;
+    margin: 0 auto ;
+}
+.subs-panel h3{
+    font-family: 'Fjalla One', sans-serif ;
+    font-size: 35px ;
+    font-weight: 300 ;
+    margin-bottom: 0
+}
+.subs-panel input {border-radius: 20px ;
+        border: 3ps solid #dddddd;
+        text-align: center ;
+        font-size: 22px ;
+        padding: 10px ;
+        margin: 10px 0 
+}
+.subs-panel input:focus { outline-width: 0
+}
+.subs-panel small{ font-size: 10px ;line-height:0px
+
+}
+.home-block{
+       display: flex ;
+       flex-direction: row ;
+       flex-wrap: wrap ;
+       margin-top:40px 
+}
+.home-block .item{
+    flex-grow: 1 ;
+    position: relative; 
+      height: 270px ;
+      overflow: hidden
+}
+.home-block .item.lg{ width: 50%
+}
+.home-block .item.md{  width: 30%
+}
+.home-block .item.sm{ width: 20%
+}
+.home-block .item .image{
+    height:270px ;
+    background-size: cover !important ;
+    background-position: center center !important
+}
+.home-block .item span{
+    background: black ;
+   padding: 10px ;
+   transition: all 500ms ease-in-out ;
+   color: white ;
+}
+.home-block .item:hover .title{
+      transform: translate(0px , -25px);
+      transition: all 500ms ease-in-out ;
+}
+.home-block .item.lg{
+    -webkit-animation: fadein 3s ease-in 7s forwards;
+    opacity : 0 ;
+    animation: fadein 3s ease-in 7s forwards;
+}
+.home-block .item.lg{
+    -webkit-animation: fadein 4s ease-in 7s forwards;
+    opacity : 0 ;
+    animation: fadein 4s ease-in 7s forwards;
+}
+.home-block .item.lg{
+    -webkit-animation: fadein 5s ease-in 7s forwards;
+    opacity : 0 ;
+    animation: fadein 5s ease-in 7s forwards;}
+
+.home-block .item .veil{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  transition:all 500ms ease-in-out 
+  ;}
+
+.home-block .item :hover .veil{
+opacity: 0 ;
+transition:all 200ms ease-in-out 
+}
+
+.home-poll{
+    width: 70% ;
+    margin:0 auto ;
+    text-align: center ;
+}
+.poll-container{
+    display: -ms-flex ;
+    display: -webkit-flex ;
+    display: flex;
+}
+.poll-container .poll-item{
+    padding: 20px ;
+    flex-grow : 1 ;
+}
+.poll-container .poll-item img{
+    width: 80%
+}
+.poll-container .poll-item div{
+    font-family: 'Fjhala One' , sans-serif ;
+    font-size: 18px ;
+}
+.team-component { min-height: 500px
+}
+.team-input{ text-align: center ;
+    padding: 20px 0 ;
+    background: #e6e6e6
+    }
+.team-input input {font-family: 'Robot' , sans-serif ;
+     border-radius: 30px ;
+    border :1px solid lightgray ;
+    color: black ;
+    font-size: 20px ;
+   padding:10px ;
+   font-weight: 300 ;
+ text-align: center ;
+width:40% }
+.team-input input:focus{ outline: none}
+.teams-container span{
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap
+}
+.teams-container .teams-item {
+    width: 16% ;
+    padding: 30px ;
+    box-sizing: border-box 
+}
+.teams-container .teams-item img{
+    width:  100%
+}
+.team-data-wrapper{display: flex;}
+.team-data-wrapper .left{ box-sizing:border-box ;
+  padding:10px 20px 
+}
+.team-data-wrapper .right{
+    flex-grow: 1;
+    box-sizing: border-box ;
+    border-left :1px solid #b9b9b9 ;
+    padding: 0px 20px
+}
+.team-data-wrapper .left img{ width:150px ;
+}
+.team-data-wrapper h1{ color:#6d6d6d 
+}
+.team-data-wrapper .squad{ display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+}
+.team-data-wrapper .squad .item{ position: relative;
+   width: 25% ;
+overflow: hidden;
+padding: 20px ;
+box-sizing: border-box}
+.team-data-wrapper .squad .item img{
+    width:40% ;
+    display: block ;
+    margin: 0 auto
+}
+.team-data-wrapper .squad .item h4{ text-align: center ;
+     color:#006bb6 }
+.team-data-wrapper .squad .item .node {
+    font-size: 14px ;
+    padding:4px 0
+}
+.team-data-wrapper .squad .item .node span{
+    font-weight: 600
+}
+
